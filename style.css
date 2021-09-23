@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 72px;
+     box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+     margin-bottom: 2px;
+}
+nav{
+    display: flex;
+    position: relative;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: 'Inter var',sans-serif;
+}
+#logo{
+    
+    padding: 10px;
+   
+}
+#logo img{
+     width: 112px;
+}
+
+#rightside{
+    position: absolute;
+   
+    right: 20px;
+    padding: 10px;
+    
+}
+#rightside li{
+    margin: 5px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover{
+  
+    color: blue;
+  }
+  .dropdown-content{
+      padding: 10px;
+      margin: 10px;
+  display: none;
+    position: absolute;
+    z-index: 100;
+    background-color:rgb(61, 83, 83);
+    color: white;
+  
+    width: 500px;
+    
+    
+  }
+  .dropdown-content div{
+      padding: 15px;
+      width: 150px;
+      height: 350px;
+  }
+  .iframecontent iframe{
+      height: 300px;
+  }
+  .dropdown-content a{
+    margin: 2px;
+    padding: 10px;
+    font-size: 15px;
+  display: block;
+  text-decoration: none;
+  color:wheat;
+   
+  
+  }
+  .dropdown-content a:hover {color: #006BC2;
+    border-radius: 0 24px 24px 0;
+    background: #EAFCFF;}
+  
+  .dropdown:hover .dropdown-content{
+   display: flex;
+
+  }
+  .dropdown a:hover {
+      color: blue;
+     
+  }
+  
+
+
+  #searchbar{
+      padding: 20px;
+      position: relative;
+  }
+  #searchbar input{
+
+      width: 448px;
+      height: 48px;
+      padding: 10px;
+      position: absolute;
+      left :400px;
+  }
+  #searchbtn{
+      position: absolute;
+      right: 415px;
+      height: 48px;
+  }
+  
+  .carousel-item img{
+     max-height: 352px;
+  }
+  .viewall{
+      float: right;
+      margin-top: -50px;
+      font-weight: bold;
+      margin-right: 15px;
+  }
+  .viewall a{
+      text-decoration: none;
+     
+  }
+  .featuresdiv{
+      margin-right: 12px;
+  }
+  .features{
+      display: flex;
+      justify-content: space-between;
+      margin-left: -15px;
+  }
+  .features li{
+      list-style-type: none;
+      text-align: center;
+      width: 130px;
+      height: 156px;
+      padding: 16px 4px 24px;
+  }
+  .features li:hover{
+    box-shadow: 2px 3px 4px 3px rgba(0,0,0,.15);
+
+  }
+  #fresherjobs{
+      width: 700px;
+      margin: 10px 250px;
+  }
+  footer{
+      background-color: #333;
+      margin: 110px 0px 0px;
+      padding: 20px;
+  }
+.footercontent{
+    padding: 10px;
+    display:  flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.footercontent ul li{
+    padding: 5px;
+    font-size: 15px;
+    list-style-type: none;
+    color: white;
+}
+.footercontent ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.socialmedia{
+    padding: 10px;
+    color: white;
+}
+.socialmedia ul{
+    display: flex;
+    
+}
+.socialmedia li{
+    margin: 15px;
+    font-size: 25px;
+    list-style-type: none;
+}
+.socialmedia a{
+    text-decoration: none;
+    color: white;
+}
+#playstorebtn{
+    background-color:#333 ;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
